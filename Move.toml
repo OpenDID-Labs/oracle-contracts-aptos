@@ -1,0 +1,16 @@
+[package]
+name = "AptosOracle"
+version = "1.0.0"
+authors = []
+
+[addresses]
+did_oracle = "_"
+# change it to `owner = "_" when calling `deploy-object` from the cli
+owner = "0xff02"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
